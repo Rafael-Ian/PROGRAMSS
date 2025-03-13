@@ -2,5 +2,8 @@
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
-quotient = num1 / num2
-print("Quotient: ", quotient)
+if num2 != 0:
+    quotient = num1 / num2
+    print("Quotient: ", quotient)
+else:
+    print("Can't be divided by zero.")
