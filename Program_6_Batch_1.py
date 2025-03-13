@@ -2,3 +2,5 @@
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second numnber: "))
 
+result = num1 ** num2
+print("Result: ", result)
