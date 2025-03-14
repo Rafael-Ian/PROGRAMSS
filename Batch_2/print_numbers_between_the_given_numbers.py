@@ -4,3 +4,4 @@ end = int(input("Enter the ending number: "))
 
 for num in range(start + 1, end):
     print(num)
+    
