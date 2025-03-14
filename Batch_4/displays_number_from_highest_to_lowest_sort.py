@@ -6,5 +6,5 @@ while True:
         numbers.append(float(input("Enter number: ")))
     except:
         break
-
+#Displays numbers in descending order
 print("Numbers sorted from highest to lowest: ", sorted(numbers, reverse=True) if numbers else "No numbers were entered.")

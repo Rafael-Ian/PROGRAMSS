@@ -6,5 +6,5 @@ while True:
         numbers.append(float(input("Enter number: ")))
     except:
         break
-
+#Displays highest number
 print("Highest number: ", max(numbers) if numbers else "No valid numbers were entered.")
